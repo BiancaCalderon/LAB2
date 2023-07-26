@@ -36,9 +36,10 @@ fun filtrarImpares(numbers: List<Int>): List<Int> {
     return numbers.filter { it % 2 != 0 }
 }
 fun isPalindrome(input: String): Boolean {
-    val cleanInput = input.replace("\\W".toRegex(), "").toLowerCase() //(\\s) que busca y reemplaza todos los espacios en blanco
+    val cleanInput = input.filter { it.isLetter() }.toLowerCase()
     return cleanInput == cleanInput.reversed()
 }
+
 fun agregarSaludo(nombres: List<String>): List<String> {
     return nombres.map { "¡Hola, $it!" }
 }

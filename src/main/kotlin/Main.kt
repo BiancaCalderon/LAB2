@@ -12,3 +12,9 @@ fun calcularPromedio(numbers: List<Int>): Double {
 fun filtrarImpares(numbers: List<Int>): List<Int> {
     return numbers.filter { it % 2 != 0 }
 }
+fun isPalindrome(input: String): Boolean {
+    val cleanInput = input.replace("\\W".toRegex(), "").toLowerCase() //(\\s) que busca y reemplaza todos los espacios en blanco
+    return cleanInput == cleanInput.reversed()
+}
+
+

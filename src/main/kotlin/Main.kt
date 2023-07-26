@@ -16,5 +16,8 @@ fun isPalindrome(input: String): Boolean {
     val cleanInput = input.replace("\\W".toRegex(), "").toLowerCase() //(\\s) que busca y reemplaza todos los espacios en blanco
     return cleanInput == cleanInput.reversed()
 }
+fun agregarSaludo(nombres: List<String>): List<String> {
+    return nombres.map { "¡Hola, $it!" }
+}
 
 

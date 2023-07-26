@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea12be7b-2222-49ec-94d6-5843623b7e1c" name="Changes" comment="Funcion agregarSaludo">
+    <list default="true" id="ea12be7b-2222-49ec-94d6-5843623b7e1c" name="Changes" comment="Incluir ejemplos y revisión del funcionamiento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690160124248</updated>
       <workItem from="1690160125462" duration="655000" />
-      <workItem from="1690329847224" duration="3267000" />
+      <workItem from="1690329847224" duration="5838000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1690160780261</created>
@@ -69,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690332010982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Incluir ejemplos y revisión del funcionamiento">
+      <created>1690333412164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690333412164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +92,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Funcion Palindrome" />
     <MESSAGE value="Funcion agregarSaludo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funcion agregarSaludo" />
+    <MESSAGE value="Incluir ejemplos y revisión del funcionamiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluir ejemplos y revisión del funcionamiento" />
   </component>
 </project>
